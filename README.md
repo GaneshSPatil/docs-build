@@ -1,9 +1,10 @@
-# docs-docs-build docker image
+# gocd-docs-build docker image
 `gocd-docs-build` docker image is build to run gocd docs test pipelines. It is primarily build for the kubernetes elastic agent plugin to use it with GKE.
-
 
 * This image can be used to build following docs websites:
     - `www.go.cd`
+
+> **Note:** `gocd-docs-build` image is not available on [`dockerhub`](hub.docker.com). This image is directly pushed to the [GCP container registry](https://cloud.google.com/container-registry/).
 
 
 ## License
